@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: gIEac7tKCZtQDwv9OB91/efKxOdRW0CXj28Q6Hy6ooSzWZZepPlBDBDR1NrIDV2bQ3BHalR+kI5Ik5v0+TrCZO/0kccaDUJVAhWbJ9gZMidG7A0BQuj57W1qvQ2qxfEU8bTJBTO2MF/mdiXTsdVEKI/iCMeeQAVGmt5pxOywIm5Ii8oAISj5uDTwaYfMWHbSSMjEVF/ZyfzYIPKYnVp1eQbqdA0KxnKPL34WE77hyoMxVouuTckfo3gkb+h3lWMmLnPjO1AJdRD+n2M/6b2tZw1eL6ovcD46aYQ/uSaJm54TK6sPrSSUWxTeOs3sYNPor2dnWilHm8HxvRLT0zpo3alSsGGNCAqvCSJvUs3HtrK8r9uB/eq302PHtZ8AAbzkBh0zW2biZr9vIqQp7Ek7XGglT+cXgljUm1JZIsUOHP99MP5lg3YBFxH2fP8NI2BE4eUPZ0tZJrBet5f//CFLaC8nqfXly9n+6qff0T6cGyUmm1ei8DGyIZmPVsL1V85EYBfnoM/oU+V/HYo14Vwud+h45j/sevY9iYz9KXHbBVEfsmAZHuLtAfI0NNt5fsu+WgKizWJIQPALQT6T3Icu+xJJTCVJtb8NZPF5mB5ioEeRZuEEfy3qvJ/1Kw5GLcUhRdpH1ACCFLem1Hjw5Rpy1EyO4KorVzZPQU0HGmUtftI=
+  app: nameless-coast-70307
+  on:
+    repo: paulj2233/placePicker
